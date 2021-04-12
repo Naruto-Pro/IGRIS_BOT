@@ -20,7 +20,7 @@ class Config(object):
     TOKEN = "ec21858c58146ca59b7d575119ff9111"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1647942274  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Naruto"
-    SUPPORT_CHAT = 'AnimeChatNetwork'  #Your own group for support, do not add the @
+    SUPPORT_CHAT = '@AnimeChatNetwork'  #Your own group for support, do not add the @
     JOIN_LOGGER = -1001159762842  #Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = -1001159762842  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
