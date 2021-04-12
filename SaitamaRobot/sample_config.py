@@ -15,14 +15,14 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = 'OnePunchSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1001253661229  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1001190806654  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    API_ID = 2829327  # integer value, dont use ""
+    API_HASH = "ec21858c58146ca59b7d575119ff9111"
+    TOKEN = "ec21858c58146ca59b7d575119ff9111"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1647942274  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Naruto"
+    SUPPORT_CHAT = 'AnimeChatNetwork'  #Your own group for support, do not add the @
+    JOIN_LOGGER = -1001159762842  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1001159762842  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
